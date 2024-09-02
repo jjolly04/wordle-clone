@@ -1,0 +1,58 @@
+CRUMB
+2
+E;-fx-background-color: darkgray; -fx-text-fill: white; -fx-alignment: center;-fx-border-color: black;
+R;-fx-background-color: green; -fx-text-fill: white; -fx-alignment: center;
+A;-fx-background-color: darkgray; -fx-text-fill: white; -fx-alignment: center;-fx-border-color: black;
+S;-fx-background-color: darkgray; -fx-text-fill: white; -fx-alignment: center;-fx-border-color: black;
+E;-fx-background-color: darkgray; -fx-text-fill: white; -fx-alignment: center;-fx-border-color: black;
+C;-fx-background-color: green; -fx-text-fill: white; -fx-alignment: center;
+R;-fx-background-color: green; -fx-text-fill: white; -fx-alignment: center;
+U;-fx-background-color: green; -fx-text-fill: white; -fx-alignment: center;
+N;-fx-background-color: darkgray; -fx-text-fill: white; -fx-alignment: center;-fx-border-color: black;
+B;-fx-background-color: green; -fx-text-fill: white; -fx-alignment: center;
+C;-fx-border-color: black;
+R;-fx-border-color: black;
+U;-fx-border-color: black;
+M;-fx-border-color: black;
+B;-fx-border-color: black;
+;-fx-border-color: black;
+;-fx-border-color: black;
+;-fx-border-color: black;
+;-fx-border-color: black;
+;-fx-border-color: black;
+;-fx-border-color: black;
+;-fx-border-color: black;
+;-fx-border-color: black;
+;-fx-border-color: black;
+;-fx-border-color: black;
+;-fx-border-color: black;
+;-fx-border-color: black;
+;-fx-border-color: black;
+;-fx-border-color: black;
+;-fx-border-color: black;
+A;-fx-background-color: darkgray; -fx-text-fill: white;;true
+B;-fx-background-color: green; -fx-text-fill: white;;false
+C;-fx-background-color: green; -fx-text-fill: white;;false
+D;-fx-background-color: #D4D6DA;;false
+E;-fx-background-color: darkgray; -fx-text-fill: white;;true
+F;-fx-background-color: #D4D6DA;;false
+G;-fx-background-color: #D4D6DA;;false
+H;-fx-background-color: #D4D6DA;;false
+I;-fx-background-color: #D4D6DA;;false
+J;-fx-background-color: #D4D6DA;;false
+K;-fx-background-color: #D4D6DA;;false
+L;-fx-background-color: #D4D6DA;;false
+M;-fx-background-color: #D4D6DA;;false
+N;-fx-background-color: darkgray; -fx-text-fill: white;;true
+O;-fx-background-color: #D4D6DA;;false
+P;-fx-background-color: #D4D6DA;;false
+Q;-fx-background-color: #D4D6DA;;false
+R;-fx-background-color: green; -fx-text-fill: white;;false
+S;-fx-background-color: darkgray; -fx-text-fill: white;;true
+T;-fx-background-color: #D4D6DA;;false
+U;-fx-background-color: green; -fx-text-fill: white;;false
+V;-fx-background-color: #D4D6DA;;false
+W;-fx-background-color: #D4D6DA;;false
+X;-fx-background-color: #D4D6DA;;false
+Y;-fx-background-color: #D4D6DA;;false
+Z;-fx-background-color: #D4D6DA;;false

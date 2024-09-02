@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="gridRoot" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="766.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.wordle.WordleController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="45.0" prefWidth="600.0">
+         <children>
+            <Label text="Wordle" textAlignment="CENTER">
+               <font>
+                  <Font name="Avenir Black" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox fx:id="hbox0" alignment="CENTER" prefHeight="69.0" prefWidth="600.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="65.0" prefWidth="67.0" style="-fx-border-color: black;">
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Helvetica Neue Bold" size="27.0" />
+               </font></Label>
+            <Label alignment="CENTER" prefHeight="65.0" prefWidth="67.0" style="-fx-border-color: black;">
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Helvetica Neue Bold" size="27.0" />
+               </font></Label>
+            <Label alignment="CENTER" prefHeight="65.0" prefWidth="67.0" style="-fx-border-color: black;">
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Helvetica Neue Bold" size="27.0" />
+               </font></Label>
+            <Label alignment="CENTER" prefHeight="65.0" prefWidth="67.0" style="-fx-border-color: black;">
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Helvetica Neue Bold" size="27.0" />
+               </font></Label>
+            <Label alignment="CENTER" prefHeight="65.0" prefWidth="67.0" style="-fx-border-color: black;">
+               <font>
+                  <Font name="Helvetica Neue Bold" size="27.0" />
+               </font></Label>
+         </children>
+      </HBox>
+      <HBox fx:id="hbox1" alignment="CENTER" prefHeight="69.0" prefWidth="600.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="65.0" prefWidth="67.0" style="-fx-border-color: black;">
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Helvetica Neue Bold" size="27.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="65.0" prefWidth="67.0" style="-fx-border-color: black;">
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Helvetica Neue Bold" size="27.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="65.0" prefWidth="67.0" style="-fx-border-color: black;">
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Helvetica Neue Bold" size="27.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="65.0" prefWidth="67.0" style="-fx-border-color: black;">
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Helvetica Neue Bold" size="27.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="65.0" prefWidth="67.0" style="-fx-border-color: black;">
+               <font>
+                  <Font name="Helvetica Neue Bold" size="27.0" />
+               </font></Label>
+         </children>
+      </HBox>
+      <HBox fx:id="hbox2" alignment="CENTER" prefHeight="69.0" prefWidth="600.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="65.0" prefWidth="67.0" style="-fx-border-color: black;">
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Helvetica Neue Bold" size="27.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="65.0" prefWidth="67.0" style="-fx-border-color: black;">
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Helvetica Neue Bold" size="27.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="65.0" prefWidth="67.0" style="-fx-border-color: black;">
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Helvetica Neue Bold" size="27.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="65.0" prefWidth="67.0" style="-fx-border-color: black;">
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Helvetica Neue Bold" size="27.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="65.0" prefWidth="67.0" style="-fx-border-color: black;">
+               <font>
+                  <Font name="Helvetica Neue Bold" size="27.0" />
+               </font></Label>
+         </children>
+      </HBox>
+      <HBox fx:id="hbox3" alignment="CENTER" prefHeight="69.0" prefWidth="600.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="65.0" prefWidth="67.0" style="-fx-border-color: black;">
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Helvetica Neue Bold" size="27.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="65.0" prefWidth="67.0" style="-fx-border-color: black;">
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Helvetica Neue Bold" size="27.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="65.0" prefWidth="67.0" style="-fx-border-color: black;">
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Helvetica Neue Bold" size="27.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="65.0" prefWidth="67.0" style="-fx-border-color: black;">
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Helvetica Neue Bold" size="27.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="65.0" prefWidth="67.0" style="-fx-border-color: black;">
+               <font>
+                  <Font name="Helvetica Neue Bold" size="27.0" />
+               </font></Label>
+         </children>
+      </HBox>
+      <HBox fx:id="hbox4" alignment="CENTER" prefHeight="69.0" prefWidth="600.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="65.0" prefWidth="67.0" style="-fx-border-color: black;">
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Helvetica Neue Bold" size="27.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="65.0" prefWidth="67.0" style="-fx-border-color: black;">
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Helvetica Neue Bold" size="27.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="65.0" prefWidth="67.0" style="-fx-border-color: black;">
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Helvetica Neue Bold" size="27.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="65.0" prefWidth="67.0" style="-fx-border-color: black;">
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Helvetica Neue Bold" size="27.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="65.0" prefWidth="67.0" style="-fx-border-color: black;">
+               <font>
+                  <Font name="Helvetica Neue Bold" size="27.0" />
+               </font></Label>
+         </children>
+      </HBox>
+      <HBox fx:id="hbox41" alignment="CENTER" prefHeight="69.0" prefWidth="600.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="66.0" prefWidth="66.0" style="-fx-border-color: black;">
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Helvetica Neue Bold" size="27.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="65.0" prefWidth="67.0" style="-fx-border-color: black;">
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Helvetica Neue Bold" size="27.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="65.0" prefWidth="67.0" style="-fx-border-color: black;">
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Helvetica Neue Bold" size="27.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="65.0" prefWidth="67.0" style="-fx-border-color: black;">
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Helvetica Neue Bold" size="27.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="65.0" prefWidth="67.0" style="-fx-border-color: black;">
+               <font>
+                  <Font name="Helvetica Neue Bold" size="27.0" />
+               </font></Label>
+         </children>
+      </HBox>
+      <HBox alignment="TOP_CENTER" prefHeight="59.0" prefWidth="600.0">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+         <children>
+            <Button fx:id="buttonQ" mnemonicParsing="false" onAction="#onKeyPressed" prefHeight="54.0" prefWidth="45.0" style="-fx-background-color: #D4D6DA;" text="Q">
+               <font>
+                  <Font name="Helvetica Neue Bold" size="19.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets right="6.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="buttonW" mnemonicParsing="false" onAction="#onKeyPressed" prefHeight="54.0" prefWidth="45.0" style="-fx-background-color: #D4D6DA;" text="W">
+               <font>
+                  <Font name="Helvetica Neue Bold" size="19.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets right="6.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="buttonE" mnemonicParsing="false" onAction="#onKeyPressed" prefHeight="54.0" prefWidth="45.0" style="-fx-background-color: #D4D6DA;" text="E">
+               <font>
+                  <Font name="Helvetica Neue Bold" size="19.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets right="6.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="buttonR" mnemonicParsing="false" onAction="#onKeyPressed" prefHeight="54.0" prefWidth="45.0" style="-fx-background-color: #D4D6DA;" text="R">
+               <font>
+                  <Font name="Helvetica Neue Bold" size="19.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets right="6.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="buttonT" mnemonicParsing="false" onAction="#onKeyPressed" prefHeight="54.0" prefWidth="45.0" style="-fx-background-color: #D4D6DA;" text="T">
+               <font>
+                  <Font name="Helvetica Neue Bold" size="19.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets right="6.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="buttonY" mnemonicParsing="false" onAction="#onKeyPressed" prefHeight="54.0" prefWidth="45.0" style="-fx-background-color: #D4D6DA;" text="Y">
+               <font>
+                  <Font name="Helvetica Neue Bold" size="19.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets right="6.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="buttonU" mnemonicParsing="false" onAction="#onKeyPressed" prefHeight="54.0" prefWidth="45.0" style="-fx-background-color: #D4D6DA;" text="U">
+               <font>
+                  <Font name="Helvetica Neue Bold" size="19.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets right="6.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="buttonI" mnemonicParsing="false" onAction="#onKeyPressed" prefHeight="54.0" prefWidth="45.0" style="-fx-background-color: #D4D6DA;" text="I">
+               <font>
+                  <Font name="Helvetica Neue Bold" size="19.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets right="6.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="buttonO" mnemonicParsing="false" onAction="#onKeyPressed" prefHeight="54.0" prefWidth="45.0" style="-fx-background-color: #D4D6DA;" text="O">
+               <font>
+                  <Font name="Helvetica Neue Bold" size="19.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets right="6.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="buttonP" mnemonicParsing="false" onAction="#onKeyPressed" prefHeight="54.0" prefWidth="45.0" style="-fx-background-color: #D4D6DA;" text="P">
+               <font>
+                  <Font name="Helvetica Neue Bold" size="19.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+         </children>
+      </HBox>
+      <HBox alignment="TOP_CENTER" prefHeight="67.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="buttonA" mnemonicParsing="false" onAction="#onKeyPressed" prefHeight="54.0" prefWidth="45.0" style="-fx-background-color: #D4D6DA;" text="A">
+               <font>
+                  <Font name="Helvetica Neue Bold" size="19.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets right="6.0" top="4.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="buttonS" mnemonicParsing="false" onAction="#onKeyPressed" prefHeight="54.0" prefWidth="45.0" style="-fx-background-color: #D4D6DA;" text="S">
+               <font>
+                  <Font name="Helvetica Neue Bold" size="19.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets right="6.0" top="4.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="buttonD" mnemonicParsing="false" onAction="#onKeyPressed" prefHeight="54.0" prefWidth="45.0" style="-fx-background-color: #D4D6DA;" text="D">
+               <font>
+                  <Font name="Helvetica Neue Bold" size="19.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets right="6.0" top="4.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="buttonF" mnemonicParsing="false" onAction="#onKeyPressed" prefHeight="54.0" prefWidth="45.0" style="-fx-background-color: #D4D6DA;" text="F">
+               <font>
+                  <Font name="Helvetica Neue Bold" size="19.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets right="6.0" top="4.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="buttonG" mnemonicParsing="false" onAction="#onKeyPressed" prefHeight="54.0" prefWidth="45.0" style="-fx-background-color: #D4D6DA;" text="G">
+               <font>
+                  <Font name="Helvetica Neue Bold" size="19.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets right="6.0" top="4.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="buttonH" mnemonicParsing="false" onAction="#onKeyPressed" prefHeight="54.0" prefWidth="45.0" style="-fx-background-color: #D4D6DA;" text="H">
+               <font>
+                  <Font name="Helvetica Neue Bold" size="19.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets right="6.0" top="4.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="buttonJ" mnemonicParsing="false" onAction="#onKeyPressed" prefHeight="54.0" prefWidth="45.0" style="-fx-background-color: #D4D6DA;" text="J">
+               <font>
+                  <Font name="Helvetica Neue Bold" size="19.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets right="6.0" top="4.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="buttonK" mnemonicParsing="false" onAction="#onKeyPressed" prefHeight="54.0" prefWidth="45.0" style="-fx-background-color: #D4D6DA;" text="K">
+               <font>
+                  <Font name="Helvetica Neue Bold" size="19.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets right="6.0" top="4.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="buttonL" mnemonicParsing="false" onAction="#onKeyPressed" prefHeight="54.0" prefWidth="45.0" style="-fx-background-color: #D4D6DA;" text="L">
+               <font>
+                  <Font name="Helvetica Neue Bold" size="19.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets right="6.0" top="4.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox alignment="BOTTOM_CENTER" prefHeight="55.0" prefWidth="600.0">
+         <children>
+            <HBox alignment="TOP_CENTER" prefHeight="0.0" prefWidth="600.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#onEnterPressed" prefHeight="57.0" prefWidth="100.0" style="-fx-background-color: #D4D6DA;" text="ENTER">
+                     <font>
+                        <Font name="Helvetica Neue Bold" size="19.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets right="6.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="buttonZ" mnemonicParsing="false" onAction="#onKeyPressed" prefHeight="54.0" prefWidth="45.0" style="-fx-background-color: #D4D6DA;" text="Z">
+                     <font>
+                        <Font name="Helvetica Neue Bold" size="19.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets right="6.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="buttonX" mnemonicParsing="false" onAction="#onKeyPressed" prefHeight="54.0" prefWidth="45.0" style="-fx-background-color: #D4D6DA;" text="X">
+                     <font>
+                        <Font name="Helvetica Neue Bold" size="19.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets right="6.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="buttonC" mnemonicParsing="false" onAction="#onKeyPressed" prefHeight="54.0" prefWidth="45.0" style="-fx-background-color: #D4D6DA;" text="C">
+                     <font>
+                        <Font name="Helvetica Neue Bold" size="19.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets right="6.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="buttonV" mnemonicParsing="false" onAction="#onKeyPressed" prefHeight="54.0" prefWidth="45.0" style="-fx-background-color: #D4D6DA;" text="V">
+                     <font>
+                        <Font name="Helvetica Neue Bold" size="19.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets right="6.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="buttonB" mnemonicParsing="false" onAction="#onKeyPressed" prefHeight="54.0" prefWidth="45.0" style="-fx-background-color: #D4D6DA;" text="B">
+                     <font>
+                        <Font name="Helvetica Neue Bold" size="19.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets right="6.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="buttonN" mnemonicParsing="false" onAction="#onKeyPressed" prefHeight="54.0" prefWidth="45.0" style="-fx-background-color: #D4D6DA;" text="N">
+                     <font>
+                        <Font name="Helvetica Neue Bold" size="19.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets right="6.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="buttonM" mnemonicParsing="false" onAction="#onKeyPressed" prefHeight="54.0" prefWidth="45.0" style="-fx-background-color: #D4D6DA;" text="M">
+                     <font>
+                        <Font name="Helvetica Neue Bold" size="19.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets right="6.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#onDeletePressed" prefHeight="57.0" prefWidth="97.0" style="-fx-background-color: #D4D6DA;" text="DEL">
+                     <font>
+                        <Font name="Helvetica Neue Bold" size="19.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets right="6.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="29.0" prefWidth="600.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#onSavePressed" prefHeight="57.0" prefWidth="100.0" style="-fx-background-color: #D4D6DA;" text="SAVE">
+               <font>
+                  <Font name="Helvetica Neue Bold" size="19.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets top="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#onResetPressed" prefHeight="57.0" prefWidth="100.0" style="-fx-background-color: #D4D6DA;" text="RESET">
+               <font>
+                  <Font name="Helvetica Neue Bold" size="19.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets left="100.0" right="100.0" top="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#onLoadPressed" prefHeight="57.0" prefWidth="100.0" style="-fx-background-color: #D4D6DA;" text="LOAD">
+               <font>
+                  <Font name="Helvetica Neue Bold" size="19.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets top="10.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+      </HBox>
+   </children>
+</VBox>
